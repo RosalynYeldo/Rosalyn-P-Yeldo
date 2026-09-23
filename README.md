@@ -54,3 +54,33 @@ The following numerical features are used for clustering:
 - `income` - Income
 
 Categorical and identification variables such as `state`, `statecode`, `year`, and `rownames` are not used as clustering features.
+
+## Tasks Completed
+
+1D
+
+1. Load dataset
+2. Calculate mean, median, minimum, maximum, range, variance, SD, IQR, skewness and kurtosis
+3. Store and display the statistics
+4. Categorical frequency/relative-frequency analysis + pie/bar charts
+5. Numerical frequency distribution + histogram/box plot
+
+2D
+
+6. Two categorical variables → contingency table and percentages
+7. Stacked/grouped bar plot
+8. Categorical + numerical → mean, median and SD by category
+9. Side-by-side box plots + violin plot
+10. Two numerical variables → Pearson/Spearman correlation + scatter plot with regression line
+
+3D
+
+11. Two categorical + one numerical → mean/SD combinations + grouped bar chart with error bars
+12. One categorical + two numerical → categorized scatter plot + category-wise correlation
+13. Three or more numerical variables → correlation matrix + heatmap
+14. Pairs/scatterplot matrix
+
+K-Means = partition-based clustering
+
+Hierarchical = distance/dendrogram-based clustering
+
