@@ -87,7 +87,7 @@ Hierarchical = distance/dendrogram-based clustering
 
 # Exploratory Data Analysis - Phase 3
 
-To perform clustering on the dataset.
+1) To perform clustering on the dataset.
 
 ## Tasks Completed
 
@@ -96,3 +96,53 @@ To perform clustering on the dataset.
 3. autoplot() creates a PCA visualization using ggfortify.
 4. pca_scores contains the principal component scores for each observation.
 5. pch = 19 gives solid circular points, and col = "red" makes them red.
+
+2) To perform SLR method
+
+## Tasks Completed
+
+Loaded the Natural Gas dataset from GitHub.
+
+Checked for missing values and duplicate records.
+
+Identified potential outliers using IQR and boxplots.
+
+Defined independent and dependent variables: consumption (X) and price (Y).
+
+Calculated mean, median, variance, and standard deviation.
+
+Visualized data distributions using histograms and density plots.
+
+Created boxplots for consumption and price.
+
+Plotted the relationship between consumption and price using a scatter plot.
+
+Calculated Pearson correlation between consumption and price.
+
+Visualized the linear relationship using a regression line.
+
+Split the data into training and testing samples.
+
+Built a linear regression model.
+
+Analyzed model performance using the regression summary, coefficients, p-value, and R-squared.
+
+Calculated residuals and evaluated prediction errors using MAE, MSE, RMSE, and MAPE.
+
+## Features Used
+
+Language: R
+
+Dataset: NaturalGas.csv
+
+Data Handling: read.csv(), head(), is.na(), duplicated(), unique()
+
+Statistical Analysis: Mean, median, variance, standard deviation, IQR, correlation
+
+Visualization: Histograms, density plots, boxplots, scatter plots, regression line
+
+Libraries: ggplot2
+
+Machine Learning: Simple linear regression using lm()
+
+Model Evaluation: Residual analysis, MAE, MSE, RMSE, MAPE, p-value, R-squared
