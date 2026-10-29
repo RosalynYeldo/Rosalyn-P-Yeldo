@@ -85,7 +85,7 @@ K-Means = partition-based clustering
 Hierarchical = distance/dendrogram-based clustering
 
 
-# Exploratory Data Analysis - Phase 2
+# Exploratory Data Analysis - Phase 3
 
 To perform clustering on the dataset.
 
