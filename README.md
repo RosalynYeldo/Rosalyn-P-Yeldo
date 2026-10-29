@@ -84,3 +84,15 @@ K-Means = partition-based clustering
 
 Hierarchical = distance/dendrogram-based clustering
 
+
+# Exploratory Data Analysis - Phase 2
+
+To perform clustering on the dataset.
+
+## Tasks Completed
+
+1. prcomp() performs PCA, and summary(pca) displays the proportion of variance explained by each component.
+2. The scree plot displays the percentage of variance explained by each principal component, with data labels and the y-axis fixed from 0 to 100.
+3. autoplot() creates a PCA visualization using ggfortify.
+4. pca_scores contains the principal component scores for each observation.
+5. pch = 19 gives solid circular points, and col = "red" makes them red.
